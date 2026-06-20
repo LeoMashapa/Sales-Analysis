@@ -190,7 +190,7 @@ CREATE TABLE retail_sales
     cogs FLOAT,
     total_sale FLOAT
 );
-
+```
 ### 2. Run the Analysis
 
 Execute the SQL queries provided to reproduce the analysis and insights.

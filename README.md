@@ -198,7 +198,7 @@ CREATE TABLE retail_sales
 - Category Count: Identify all unique product categories in the dataset.
 - Null Value Check: Check for any null values in the dataset and delete records with missing data
 
-```
+```sql
 SELECT COUNT(*) FROM retail_sales;
 SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
 SELECT DISTINCT category FROM retail_sales;
@@ -218,9 +218,9 @@ WHERE
 
 ### 3. Extend the Project
 
-#### 1. Write a SQL query to retrieve all columns for sales made on '2022-11-05:
+  #### 1. Write a SQL query to retrieve all columns for sales made on '2022-11-05:
 
-```
+```sql
 SELECT *
 FROM retail_sales
 WHERE sale_date = '2022-11-05';

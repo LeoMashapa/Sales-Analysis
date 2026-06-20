@@ -22,7 +22,7 @@ The primary objectives of this project are to:
 
 ## Database Design
 
-The project begins with the creation of a relational database named **p1_retail_db**.
+The project begins with the creation of a relational database named **retail_db**.
 
 A sales fact table, **retail_sales**, stores transaction-level information including:
 
@@ -341,11 +341,10 @@ GROUP BY shift
 ---
 
 ## Findings
-- Customer Demographics: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
-- High-Value Transactions: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
-- Sales Trends: Monthly analysis shows variations in sales, helping identify peak seasons.
-Customer Insights: The analysis identifies the top-spending customers and the most popular product categories.
-
+- **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
+- **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
+- **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
+- **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
 ---
 
 ## Author - Leo Mashapa

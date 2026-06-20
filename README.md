@@ -169,19 +169,33 @@ These insights can support strategic decisions related to marketing, inventory m
 
 ## Getting Started
 
-### 1. Clone the Repository
-
-Download or clone the repository to your local environment.
-
-### 2. Create the Database
+### 1. Create the Database
 
 Execute the scripts contained in the database setup file to create the database and load the dataset.
 
-### 3. Run the Analysis
+```sql
+CREATE DATABASE p1_retail_db;
+
+CREATE TABLE retail_sales
+(
+    transactions_id INT PRIMARY KEY,
+    sale_date DATE,
+    sale_time TIME,
+    customer_id INT,
+    gender VARCHAR(10),
+    age INT,
+    category VARCHAR(35),
+    quantity INT,
+    price_per_unit FLOAT,
+    cogs FLOAT,
+    total_sale FLOAT
+);
+
+### 2. Run the Analysis
 
 Execute the SQL queries provided to reproduce the analysis and insights.
 
-### 4. Extend the Project
+### 3. Extend the Project
 
 Experiment with additional queries, create new KPIs, and explore further business questions using the dataset.
 
